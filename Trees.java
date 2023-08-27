@@ -12,7 +12,7 @@ class Solution {
         if(root==null)
         {
             
-            return ans[0];
+            return 0;
         }
         return Math.max(helper(root.left,d+1,ans),helper(root.right,d+1,ans));   
     }
