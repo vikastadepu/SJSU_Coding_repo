@@ -1,9 +1,8 @@
-
 class Solution {
     //int ans=0;
     public int maxDepth(TreeNode root) 
     {
-        int[] ans=new int[1];
+        int[] ans=new int[3];
         return helper(root,0,ans);
       
     }
