@@ -12,8 +12,8 @@ class Solution {
         if(root==null)
         {
             
-            return ans[0];
+           hi
         }
-        return 3;   
+        return 0;   
     }
 }//
