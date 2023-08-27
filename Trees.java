@@ -11,7 +11,7 @@ class Solution {
     {
         if(root==null)
         {
-            ans[0]=Math.max(ans[0],d);
+            
             return ans[0];
         }
         return Math.max(helper(root.left,d+1,ans),helper(root.right,d+1,ans));
